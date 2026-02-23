@@ -6,9 +6,10 @@ age = 20
 course = "Python Programming"
 college = "ABC University"
 email = "john@example.com"
-print("STUDENT BIO CARD")
+print("student personal biocard")
 print(f"Name : {name}")
 print(f"Age : {age} years")
 print(f"Course : {course}")
 print(f"College: {college}")
+
 print(f"Email  : {email}")
