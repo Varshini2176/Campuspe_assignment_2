@@ -1,5 +1,4 @@
 try:
-    # Part 1: Single Number Prime Check
     num = int(input("Enter a number: "))
 
     if num <= 1:
@@ -40,4 +39,5 @@ try:
                 print(number, end=" ")
 
 except ValueError:
+
     print("Invalid input! Please enter integers only.")
