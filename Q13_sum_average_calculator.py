@@ -38,7 +38,7 @@ try:
             if value == max_freq and max_freq > 1:
                 modes.append(key)
 
-        print("\n===== STATISTICAL RESULTS =====")
+        print("\n STATISTICAL RESULTS")
         print("Sum:", total)
         print("Average:", round(average, 2))
         print("Maximum:", maximum)
@@ -51,4 +51,5 @@ try:
             print("Mode: No mode (all values occur once)")
 
 except ValueError:
-    print("Invalid input! Please enter numeric values only.")
+
+    print("Invalid input! Please enter numeric values only")
