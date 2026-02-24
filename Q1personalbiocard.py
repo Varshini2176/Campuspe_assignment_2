@@ -1,5 +1,3 @@
-
-
 # variables
 name = "John Doe"
 age = 20
@@ -13,3 +11,4 @@ print(f"Course : {course}")
 print(f"College: {college}")
 
 print(f"Email  : {email}")
+
