@@ -1,15 +1,14 @@
 try:
-    # Taking inputs
+    
     total_bill = float(input("Enter total bill amount: ₹"))
     people = int(input("Number of people: "))
     tax_percent = float(input("Tax percentage: "))
     tip_percent = float(input("Tip percentage: "))
 
-    # Validation
     if people <= 0:
         print("Number of people must be greater than 0.")
     else:
-        # Calculations
+        
         tax_amount = (tax_percent / 100) * total_bill
         after_tax = total_bill + tax_amount
 
@@ -18,7 +17,7 @@ try:
 
         per_person = final_total / people
 
-        # Display breakdown
+       
         print("\nBILL BREAKDOWN")
         print(f"Subtotal: ₹{total_bill:.2f}")
         print(f"Tax ({tax_percent}%): ₹{tax_amount:.2f}")
@@ -28,4 +27,5 @@ try:
         print(f"Per person: ₹{per_person:.2f}")
 
 except ValueError:
+
     print("Invalid input! Please enter numeric values only.")
